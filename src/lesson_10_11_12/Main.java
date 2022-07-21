@@ -10,11 +10,11 @@ public class Main {
 
     }
 
-    public static String drink(boolean isTodayFriday, boolean aLotOfMoney){
-        if(isTodayFriday && aLotOfMoney){
+    public static String drink(boolean isTodayFriday, boolean aLotOfMoney) {
+        if (isTodayFriday && aLotOfMoney) {
             print("Lets go drink beer!");
         } else {
-            if (isTodayFriday){
+            if (isTodayFriday) {
                 print("Need to ask for a loan");
             } else {
                 print("Buckwheat is our everything(");
@@ -22,6 +22,7 @@ public class Main {
         }
         return "";
     }
+
     public static void print(String text) {
         System.out.println(text);
     }
